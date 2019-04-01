@@ -13,8 +13,9 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation group: 'com.github.haifengl', name: 'smile-core', version: '1.5.2'
-    implementation 'com.github.holgerbrandl:krangl:v0.11'
+    implementation group: 'org.apache.spark', name: 'spark-core_2.12', version: '2.4.0'
+    implementation group: 'org.apache.spark', name: 'spark-sql_2.12', version: '2.4.0'
+    implementation group: 'org.apache.spark', name: 'spark-mllib_2.12', version: '2.4.0'
 }
 
 compileKotlin {
